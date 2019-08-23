@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const dotenv = require('dotenv-webpack')
+// const dotenv = require('dotenv-webpack')
 
 module.exports = {
   entry: './src/app.js',
@@ -49,6 +49,10 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: './src/assets', to: 'assets' }
     ]),
-    new dotenv()
+    // new dotenv(),
+    new webpack.DefinePlugin({
+      'process.env.TRIPOSO_TOKEN': JSON.stringify(process.env.TRIPOSO_TOKEN),
+      'process.env.TRIPOSO_ACCOUNT': JSON.stringify(process.env.TRIPOSO_ACCOUNT)
+    })
   ]
 }

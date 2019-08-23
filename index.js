@@ -22,6 +22,8 @@ db.once('open', function() {
   console.log('connected!')
 })
 
+app.use(express.static(`${__dirname}/dist`))
+
 app.use(bodyParser.json())
 
 app.use(logger)
