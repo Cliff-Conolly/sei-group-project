@@ -1,5 +1,5 @@
-const Trip = require('../models/trip')
-const Place = require('../models/place')
+const Trip = require('../models/Trip')
+const Place = require('../models/Place')
 
 function indexTrips(req, res, next) {
   console.log('index trips')

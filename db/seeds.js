@@ -3,8 +3,8 @@ const axios = require('axios')
 require('dotenv').config()
 const { token, account } = require('../config/env')
 const User = require('../models/User')
-const Trip = require('../models/trip')
-const Place = require('../models/place')
+const Trip = require('../models/Trip')
+const Place = require('../models/Place')
 const { dbURI } = require('../config/env')
 
 function generateUsers() {

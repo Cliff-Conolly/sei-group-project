@@ -1,7 +1,7 @@
 require('dotenv').config()
 const { token, account } = require('../config/env')
 const axios = require('axios')
-const Place = require('../models/place')
+const Place = require('../models/Place')
 
 function indexPlaces(req, res, next) {
   console.log('index places')

@@ -1,6 +1,6 @@
 require('dotenv').config()
 const User = require('../models/User')
-const Trip = require('../models/trip')
+const Trip = require('../models/Trip')
 const jwt = require('jsonwebtoken')
 const { secret } = require('../config/env')
 
