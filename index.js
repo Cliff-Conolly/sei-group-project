@@ -30,6 +30,8 @@ app.use(logger)
 
 app.use('/api', router)
 
+app.use('/*', (req,res) => res.sendFile(`${__dirname}/dist/index.html`))
+
 app.use(errorHandler)
 
 app.listen(port, () => console.log(`App is totally listening on port ${port}`))
