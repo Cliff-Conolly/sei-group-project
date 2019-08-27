@@ -1,24 +1,32 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Software Engineering Immersive Project #3: Walkabout
 
-## Introduction
-A travel site modeled after tripadvisor.com. Using a MERN stack and an external API, users can search for places of interest in places all over the world and save them to their own trips they can create.
-
-## Team Members
+## Team Members:
 Shane - https://github.com/shaneshibu/  
 Cliff - https://github.com/Cliff-Conolly/  
 Dan - https://github.com/danielagutperl/
 
-## Timeframe
+---
+
+## Introduction:
+Walkabout is a travel site modeled after tripadvisor.com. Using a MERN stack and an external API, users can search for places of interest in places all over the world and save them to their own trips they can create.
+
+---
+
+## Timeframe:
 1 week (June 2019)
 
-## Technologies Used
+---
+
+## Technologies Used:
 - MongoDB
 - Express
 - React
 - Node.js
 - Triposo API
 
-## Overview
+---
+
+## Overview:
 ![Walkabout Home Page](src/assets/screenshots/homepage.png)
 
 From the home screen users can search for cities or places of interest around the world then go to that places webpage to see more about them.
@@ -27,11 +35,13 @@ Users can save these places to their own trips or can even see other users plann
 
 ![Walkabout User Trips](src/assets/screenshots/browseTrips.gif)
 
-Users can even browse other members and see what trips they have planned.
+Users can also browse other members and see what trips they have planned.
 
 ![Walkabout Users](src/assets/screenshots/browseUsers.gif)
 
-## Wins
+---
+
+## Wins:
 The database controllers proved to be challenging in that we needed to interact with an external API as well as data on our database.
 
 ```javascript
@@ -65,13 +75,43 @@ function getTriposoPOIData(triposoId) {
 ```
 By spreading the data object return from the API request with data from our database we were able to return a single JSON object with all the data to the front end.
 
-## Challenges
-![Walkabout Search Places](src/assets/screenshots/search.gif)
-Due to the nature of the PI we were using, searching for cities and searching for places of interest were two different http get requests. This made searching from a user's perspective cumbersome. We eventually settled for adding a radio button on the main search bar, so users would have to choose which they wanted to search fro.
+---
 
-## Future Features
+## Challenges:
+![Walkabout Search Places](src/assets/screenshots/search.gif)
+
+Due to the nature of the PI we were using, searching for cities and searching for places of interest were two different http get requests. This made searching from a user's perspective cumbersome. We eventually settled for adding a radio button on the main search bar, so users would have to choose which they wanted to search for.
+
+---
+
+## Process:
+
+#### draw.io:
+
+Given the ambitiousness and complexity of all the interconnected components in the back-end, we thought it to be prudent and use draw.io to draw out in schematic form all the required components. This also came handy as a visual tool when we shared out who would build what components, and we would check them off as we went along.
+
+![draw.io](src/assets/screenshots/draw.gif)
+
+#### Trello:
+
+In addition, the tool we used the most to keep track of who was building what component was Trello. We started with the back-end components, and then the front-end. The respective components that were being built were labeled with the team members initials, and when completed were placed in the 'Done' column.
+
+![draw.io](src/assets/screenshots/trello.gif)
+
+#### Slack for Github pushes:
+
+In addition, we also set up Slack to notify each team member when someone made a push to the development branch. This was to alleviate any merge complications, and also keep a track of who was working on what component.
+
+![slack](src/assets/screenshots/slack.gif)
+
+
+---
+
+## Future Features:
 - Additional Styling. While the site is mostly functional, we didn't have enough time to style the front end so we could spend some additional time to make it look nicer.
 - Currently users have to use a radio button on the front page to choose between searching cities and places of interest. Ideally we could make it so the search bar searches both without the need for a radio button.
+
+---
 
 ## **API Documentation**  
 
