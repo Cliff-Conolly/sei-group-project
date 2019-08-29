@@ -8,7 +8,7 @@ Dan - https://github.com/danielagutperl/
 ---
 
 ## Introduction:
-Walkabout is a travel site modeled after tripadvisor.com. Using a MERN stack and an external API, users can search for places of interest in places all over the world and save them to their own trips they can create.
+Walkabout is a travel site modeled after tripadvisor.com. Using a MERN (MongoDB, Express, React, Node.js.)stack and an external API, users can search for places of interest in places all over the world and save them to their own trips they can create.
 
 ---
 
@@ -23,6 +23,12 @@ Walkabout is a travel site modeled after tripadvisor.com. Using a MERN stack and
 - React
 - Node.js
 - Triposo API
+- Github
+- Git
+- Bulma
+- SCSS
+- draw.io
+- Slack 
 
 ---
 
