@@ -28,7 +28,7 @@ Walkabout is a travel site modeled after tripadvisor.com. Using a MERN (MongoDB,
 - Bulma
 - SCSS
 - draw.io
-- Slack 
+- Slack
 
 ---
 
@@ -620,4 +620,4 @@ GET http://localhost:3999/api/places/W__3517898
   "__v": 0
 }
 ```
-### Live site: https://walkabout-project.herokuapp.com
+### Deployed here: https://walkabout-project.herokuapp.com
