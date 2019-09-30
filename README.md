@@ -3,7 +3,7 @@
 ## Team Members:
 Shane - https://github.com/shaneshibu/  
 Cliff - https://github.com/Cliff-Conolly/  
-Dan - https://github.com/danielagutperl/
+Daniela - https://github.com/danielagutperl/
 
 ---
 
