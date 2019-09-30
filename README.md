@@ -26,7 +26,7 @@ Walkabout is a travel site modeled after tripadvisor.com. Using a MERN (MongoDB,
 - Github
 - Git
 - Bulma
-- SCSS
+- CSS
 - draw.io
 - Slack
 
